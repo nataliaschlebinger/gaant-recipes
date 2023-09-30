@@ -4,14 +4,10 @@ Manage and visualize your recipes as projects, with parallelizable time-bounded 
 
 ## Local Development
 
-In the project root, install its dependencies with
+In the project root, run
 
 ```
-pip install -r requirements.txt
+docker compose up
 ```
 
-and then run it with
-
-```
-python manage.py runserver
-```
+You will find the app on port `8000`, as in, `http://localhost:8000/` :)
