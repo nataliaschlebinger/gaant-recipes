@@ -5,3 +5,11 @@ services:
       - .:/usr/src/app
     ports:
       - 8000:8000
+    environment:
+      DJANGO_SECRET_FILE: /run/secrets/django_secret
+    secrets:
+      - django_secret
+
+secrets:
+  django_secret:
+    file: ./django_secret.txt
