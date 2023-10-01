@@ -4,7 +4,7 @@ Manage and visualize your recipes as projects, with parallelizable time-bounded 
 
 ## Local Development
 
-In the project root, run
+In the project root, create a `django_secret.txt` file with a [SECRET_KEY](https://docs.djangoproject.com/en/4.2/ref/settings/#secret-key) string for the project, and then run
 
 ```
 docker compose up
